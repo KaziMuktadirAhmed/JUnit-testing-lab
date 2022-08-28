@@ -52,34 +52,34 @@ class CalculateTest {
 
     @Test
     void testAmax() {
-        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MAX_VALUE, 0 , 0));
+        assertArrayEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MAX_VALUE, 0 , 0));
     }
     @Test
     void testAmaxM() {
-        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MAX_VALUE-2, 0 , 0));
+        assertArrayEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MAX_VALUE-2, 0 , 0));
     }
     @Test
     void testAmin() {
-        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MIN_VALUE, 0 , 0));
+        assertArrayEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MIN_VALUE, 0 , 0));
     }
     @Test
     void testAminP() {
-        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MIN_VALUE+2, 0 , 0));
+        assertArrayEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MIN_VALUE+2, 0 , 0));
     }
     @Test
     void testBmax() {
-        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MAX_VALUE, 0));
+        assertArrayEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MAX_VALUE, 0));
     }
     @Test
     void testBmaxM() {
-        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MAX_VALUE-2, 0));
+        assertArrayEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MAX_VALUE-2, 0));
     }
     @Test
     void testBmin() {
-        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MIN_VALUE, 0));
+        assertArrayEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MIN_VALUE, 0));
     }
     @Test
     void testBminP() {
-        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MIN_VALUE+2, 0));
+        assertArrayEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MIN_VALUE+2, 0));
     }
 }
