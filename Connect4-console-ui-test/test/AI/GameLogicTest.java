@@ -14,7 +14,6 @@ class GameLogicTest {
 
     @org.junit.jupiter.api.Test
     void turn() {
-        asse
     }
 
     @org.junit.jupiter.api.Test

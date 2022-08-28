@@ -6,7 +6,7 @@ public class GameLogic {
             if (i == 5) {
                 if (board[i][place_tile] == 0) {
                     board[i][place_tile] = player;
-                    break;
+                     break;
                 }
             }
 
