@@ -52,31 +52,34 @@ class CalculateTest {
 
     @Test
     void testAmax() {
-        assertEquals(0, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MAX_VALUE, 0 , 0));
+        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MAX_VALUE, 0 , 0));
     }
     @Test
     void testAmaxM() {
-        assertEquals(0, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MAX_VALUE-2, 0 , 0));
+        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MAX_VALUE-2, 0 , 0));
     }
     @Test
     void testAmin() {
-        assertEquals(0, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MIN_VALUE, 0 , 0));
+        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MIN_VALUE, 0 , 0));
     }
     @Test
     void testAminP() {
-        assertEquals(0, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MIN_VALUE+2, 0 , 0));
+        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(Integer.MIN_VALUE+2, 0 , 0));
     }
     @Test
     void testBmax() {
-        assertEquals(0, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MAX_VALUE, 0));
+        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MAX_VALUE, 0));
     }
+    @Test
     void testBmaxM() {
-        assertEquals(0, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MAX_VALUE-2, 0));
+        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MAX_VALUE-2, 0));
     }
+    @Test
     void testBmin() {
-        assertEquals(0, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MIN_VALUE, 0));
+        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MIN_VALUE, 0));
     }
+    @Test
     void testBminP() {
-        assertEquals(0, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MIN_VALUE+2, 0));
+        assertEquals(new int[]{0, 0}, Calculate.intersectionPointInBothAxisForALinearEqn(0, Integer.MIN_VALUE+2, 0));
     }
 }
