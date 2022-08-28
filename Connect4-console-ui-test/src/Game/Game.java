@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Game {
     private final boolean with_ai;
-    private final AI ai = new AI(8);
+    private final AI ai = new AI(6);
     private final int[][] board = new int[6][7];
 
     public Game(boolean with_ai) {

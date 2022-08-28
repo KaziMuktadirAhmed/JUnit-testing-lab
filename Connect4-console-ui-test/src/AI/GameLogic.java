@@ -50,7 +50,7 @@ public class GameLogic {
             return -1;
     }
 
-    private int checkBoardHorizontally(int[][] board) {
+    public int checkBoardHorizontally(int[][] board) {
         for (int i = 0; i < 6; i++) {
             int match_count = 0;
             for (int j = 0; j < 7; j++) {
@@ -67,7 +67,7 @@ public class GameLogic {
         return -1;
     }
 
-    private int checkBordVertically(int[][] board) {
+    public int checkBordVertically(int[][] board) {
         for (int j = 0; j < 7; j++) {
             int match_count = 0;
             for (int i = 0; i < 6; i++) {
@@ -84,7 +84,7 @@ public class GameLogic {
         return -1;
     }
 
-    private int checkBordDiagonallyPrimary(int[][] board) {
+    public int checkBordDiagonallyPrimary(int[][] board) {
         for (int itr = -2; itr < 4; itr++) {
             int row, col;
             if (itr < 1) {
@@ -111,7 +111,7 @@ public class GameLogic {
         return -1;
     }
 
-    private int checkBordDiagonallySecondary(int[][] board) {
+    public int checkBordDiagonallySecondary(int[][] board) {
         for (int itr = -2; itr < 4; itr++) {
             int row, col;
             if (itr < 1) {
