@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac67e32-697d-4133-ad52-1bf59f389d0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DateTimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/carRentalManagementSystem-master/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/carRentalManagementSystem-master/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/carRentalManagementSystem-master/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/carRentalManagementSystem-master/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/carRentalManagementSystem-master/DateTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/carRentalManagementSystem-master/RentalRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/carRentalManagementSystem-master/Start.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/carRentalManagementSystem-master/ThriftyRentSystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/carRentalManagementSystem-master/Van.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/carRentalManagementSystem-master/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/carRentalManagementSystem-master/VehicleType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/carRentalManagementSystem-master/carRentalManagementSystem-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThriftyRentSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThriftyRentSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/carRentalManagementSystem-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/carRentalManagementSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/VehicleTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
