@@ -77,14 +77,14 @@ class  ThriftyRentSystem{
 		int perDayRent=0;
 		System.out.print("Vehicle Type(Van or Car): ");
 		String vehicleType = scan.nextLine();
-		while (!(vehicleType.equalsIgnoreCase("car") ||vehicleType.equalsIgnoreCase("van")))
+		while (!(vehicleType.equalsIgnoreCase("car") || vehicleType.equalsIgnoreCase("van")))
 		{
 			System.out.print("Please enter either van or car: ");
 			vehicleType = scan.nextLine();
 		}
 		System.out.print("Year: ");
 		int year = Integer.parseInt(scan.nextLine());
-		while (year<0 || year >2019)
+		while (year<0 || year >2023)
 		{
 			System.out.println("Please enter a valid year");
 			year=Integer.parseInt(scan.nextLine());
