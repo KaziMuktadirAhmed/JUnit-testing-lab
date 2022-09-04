@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac67e32-697d-4133-ad52-1bf59f389d0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/VehicleTypeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/carRentalManagementSystem/ThriftyRentSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/carRentalManagementSystem/ThriftyRentSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DateTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DateTimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +51,64 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Start" />
+  <component name="RunManager" selected="JUnit.DateTimeTest.testInvalidDate">
+    <configuration name="DateTimeTest.getNameOfDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
+      <option name="METHOD_NAME" value="getNameOfDay" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTimeTest.testDayNameWithDateLessThen1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carRentalManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
+      <option name="METHOD_NAME" value="testDayNameWithDateLessThen1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTimeTest.testDayNameWithDateMoreThen31" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carRentalManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
+      <option name="METHOD_NAME" value="testDayNameWithDateMoreThen31" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTimeTest.testInvalidDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carRentalManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
+      <option name="METHOD_NAME" value="testInvalidDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTimeTest.testSat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carRentalManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
+      <option name="METHOD_NAME" value="testSat" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Start" />
+        <item itemvalue="JUnit.DateTimeTest.testInvalidDate" />
+        <item itemvalue="JUnit.DateTimeTest.getNameOfDay" />
+        <item itemvalue="JUnit.DateTimeTest.testSat" />
+        <item itemvalue="JUnit.DateTimeTest.testDayNameWithDateLessThen1" />
+        <item itemvalue="JUnit.DateTimeTest.testDayNameWithDateMoreThen31" />
       </list>
     </recent_temporary>
   </component>
