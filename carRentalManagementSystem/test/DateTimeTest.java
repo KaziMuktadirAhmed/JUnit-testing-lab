@@ -2,11 +2,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 class DateTimeTest {
-
-    @org.junit.jupiter.api.Test
-    void getTime() {
-    }
-
     @org.junit.jupiter.api.Test
     void getNameOfDay() {
         testSat();
