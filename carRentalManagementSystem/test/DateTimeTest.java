@@ -60,14 +60,6 @@ class DateTimeTest {
     }
 
     @org.junit.jupiter.api.Test
-    void getFormattedDate() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void getEightDigitDate() {
-    }
-
-    @org.junit.jupiter.api.Test
     void diffDays() {
     }
 }
