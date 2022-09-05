@@ -60,14 +60,6 @@ class DateTimeTest {
     }
 
     @org.junit.jupiter.api.Test
-    void testToString() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void getCurrentTime() {
-    }
-
-    @org.junit.jupiter.api.Test
     void getFormattedDate() {
     }
 
@@ -77,9 +69,5 @@ class DateTimeTest {
 
     @org.junit.jupiter.api.Test
     void diffDays() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void setAdvance() {
     }
 }

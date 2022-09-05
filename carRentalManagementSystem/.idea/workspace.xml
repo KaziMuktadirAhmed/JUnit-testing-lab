@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac67e32-697d-4133-ad52-1bf59f389d0b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../BMIcalculator/BMIcalculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BMIcalculator/BMIcalculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BMIcalculator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BMIcalculator/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DateTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DateTimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Start">
+  <component name="RunManager" selected="JUnit.DateTimeTest.testInvalidDate">
     <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Start" />
       <module name="carRentalManagementSystem" />
@@ -101,9 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Start" />
         <item itemvalue="JUnit.DateTimeTest.testInvalidDate" />
         <item itemvalue="JUnit.DateTimeTest.getNameOfDay" />
+        <item itemvalue="Application.Start" />
         <item itemvalue="JUnit.DateTimeTest.testSat" />
         <item itemvalue="JUnit.DateTimeTest.testDayNameWithDateLessThen1" />
       </list>
