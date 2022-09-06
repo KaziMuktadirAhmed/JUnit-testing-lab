@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTypeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/VehicleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/VehicleTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/VehicleTypeTest.java" afterDir="false" />
     </list>
@@ -54,13 +54,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VehicleTest.testCarRentMaxNumDays">
-    <configuration name="VehicleTest.testCarRent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Start">
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Start" />
       <module name="carRentalManagementSystem" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
-      <option name="METHOD_NAME" value="testCarRent" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -70,16 +67,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="VehicleTest" />
       <option name="METHOD_NAME" value="testCarRentMaxNumDays" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VehicleTest.testVanRent (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carRentalManagementSystem" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
-      <option name="METHOD_NAME" value="testVanRent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +82,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest.testVanRentWithoutMaintenanceSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTypeTest.canBeRentedForMinimumDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
-      <option name="METHOD_NAME" value="testVanRentWithoutMaintenanceSet" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTypeTest" />
+      <option name="METHOD_NAME" value="canBeRentedForMinimumDays" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleTypeTest.getSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carRentalManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTypeTest" />
+      <option name="METHOD_NAME" value="getSeats" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Start" />
+        <item itemvalue="JUnit.VehicleTypeTest.canBeRentedForMinimumDays" />
+        <item itemvalue="JUnit.VehicleTypeTest.getSeats" />
         <item itemvalue="JUnit.VehicleTest.testCarRentMaxNumDays" />
         <item itemvalue="JUnit.VehicleTest.testVanRentOverTimeLimit" />
-        <item itemvalue="JUnit.VehicleTest.testVanRentWithoutMaintenanceSet" />
-        <item itemvalue="JUnit.VehicleTest.testVanRent (1)" />
-        <item itemvalue="JUnit.VehicleTest.testCarRent" />
       </list>
     </recent_temporary>
   </component>

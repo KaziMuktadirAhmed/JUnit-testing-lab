@@ -13,7 +13,6 @@ class VehicleTest {
         testVanRentOverTimeLimit();
         testVanRentWithoutMaintenanceSet();
     }
-
     @Test
     void testVanRentWithMaintenanceSet() {
         VehicleType type = new VehicleType(15);

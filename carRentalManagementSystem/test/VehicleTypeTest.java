@@ -7,7 +7,6 @@ class VehicleTypeTest {
     void getSeats() {
         testCarSeats();
         testVanSeats();
-        testInvalidVehicleSeats();
     }
     @Test
     void testCarSeats() {
@@ -16,7 +15,7 @@ class VehicleTypeTest {
     }
     @Test
     void testVanSeats(){
-        VehicleType type = new VehicleType(4);
+        VehicleType type = new VehicleType(15);
         assertEquals(15, type.getSeats("van"));
     }
     @Test

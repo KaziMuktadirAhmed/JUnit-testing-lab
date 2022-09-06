@@ -27,7 +27,6 @@ public class Car extends  Vehicle {
      */
     public double getLateFee(DateTime endDate,DateTime startDate)
     {
-
         if(DateTime.diffDays(endDate,startDate)>0)
             this.lateFee= 1.25 * this.rentRate * DateTime.diffDays(endDate,startDate);
         else
@@ -54,7 +53,6 @@ public class Car extends  Vehicle {
         if(vehicleType.equals("car") && DateTime.diffDays(returnDate,estdate)<0 && DateTime.diffDays(returnDate,rentDate)<this.vehicleType.canBeRentedForMinimumDays(rentDate,vehicleType)){
             return false;
         }
-
         else{
 
             this.records[this.getLastElementIndex()].setData(returnDate,this.rentRate * DateTime.diffDays(returnDate,rentDate),this.getLateFee(returnDate,estdate));
