@@ -3,7 +3,7 @@
 /**
  * Class to save all the car details
  * This class contains all the calculations and details of the car
- * It extends Vehicle so it has all the features of a vehicle
+ * It extends Vehicle, so it has all the features of a vehicle
  */
 public class Car extends  Vehicle {
 

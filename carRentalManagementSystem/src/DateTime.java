@@ -48,7 +48,6 @@ public class DateTime {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		long currentTime = getTime();
 		Date gct = new Date(currentTime);
-
 		return sdf.format(gct);
 	}
 
@@ -56,7 +55,6 @@ public class DateTime {
 		SimpleDateFormat sdf = new SimpleDateFormat("ddMMyyyy");
 		long currentTime = getTime();
 		Date gct = new Date(currentTime);
-
 		return sdf.format(gct);
 	}
 

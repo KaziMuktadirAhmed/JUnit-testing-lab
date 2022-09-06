@@ -28,19 +28,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -50,6 +50,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.DateTimeTest.testInvalidDate">
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Start" />
+      <module name="carRentalManagementSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DateTimeTest.getNameOfDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,16 +72,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
       <option name="METHOD_NAME" value="testDayNameWithDateLessThen1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateTimeTest.testDayNameWithDateMoreThen31" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carRentalManagementSystem" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
-      <option name="METHOD_NAME" value="testDayNameWithDateMoreThen31" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,9 +101,9 @@
       <list>
         <item itemvalue="JUnit.DateTimeTest.testInvalidDate" />
         <item itemvalue="JUnit.DateTimeTest.getNameOfDay" />
+        <item itemvalue="Application.Start" />
         <item itemvalue="JUnit.DateTimeTest.testSat" />
         <item itemvalue="JUnit.DateTimeTest.testDayNameWithDateLessThen1" />
-        <item itemvalue="JUnit.DateTimeTest.testDayNameWithDateMoreThen31" />
       </list>
     </recent_temporary>
   </component>
