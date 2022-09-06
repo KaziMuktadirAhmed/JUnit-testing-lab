@@ -1,5 +1,5 @@
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 class DateTimeTest {
     @org.junit.jupiter.api.Test
@@ -16,45 +16,59 @@ class DateTimeTest {
     @Test
     void testInvalidDate() {
         DateTime dateTime = new DateTime(-99, 9, 2022);
-        Assertions.assertEquals("", dateTime.getNameOfDay());
+        assertEquals("", dateTime.getNameOfDay());
     }
     @Test
     void testSat() {
         DateTime dateTime = new DateTime(3, 9, 2022);
-        Assertions.assertEquals("Saturday", dateTime.getNameOfDay());
+        assertEquals("Saturday", dateTime.getNameOfDay());
     }
     @Test
     void testSun() {
         DateTime dateTime = new DateTime(4, 9, 2022);
-        Assertions.assertEquals("Sunday", dateTime.getNameOfDay());
+        assertEquals("Sunday", dateTime.getNameOfDay());
     }
     @Test
     void testMon() {
         DateTime dateTime = new DateTime(5, 9, 2022);
-        Assertions.assertEquals("Monday", dateTime.getNameOfDay());
+        assertEquals("Monday", dateTime.getNameOfDay());
     }
     @Test
     void testTue() {
         DateTime dateTime = new DateTime(6, 9, 2022);
-        Assertions.assertEquals("Tuesday", dateTime.getNameOfDay());
+        assertEquals("Tuesday", dateTime.getNameOfDay());
     }
     @Test
     void testWed() {
         DateTime dateTime = new DateTime(7, 9, 2022);
-        Assertions.assertEquals("Wednesday", dateTime.getNameOfDay());
+        assertEquals("Wednesday", dateTime.getNameOfDay());
     }
     @Test
     void testThu() {
         DateTime dateTime = new DateTime(8, 9, 2022);
-        Assertions.assertEquals("Thursday", dateTime.getNameOfDay());
+        assertEquals("Thursday", dateTime.getNameOfDay());
     }
     @Test
     void testFri() {
         DateTime dateTime = new DateTime(9, 9, 2022);
-        Assertions.assertEquals("Friday", dateTime.getNameOfDay());
+        assertEquals("Friday", dateTime.getNameOfDay());
     }
 
     @org.junit.jupiter.api.Test
     void diffDays() {
+        testValidDiff();
+        testReverseValidDiff();
+    }
+    @Test
+    void testValidDiff() {
+        DateTime date1 = new DateTime(15, 2, 2018);
+        DateTime date2 = new DateTime(25, 2, 2018);
+        assertEquals(10, DateTime.diffDays(date2, date1));
+    }
+    @Test
+    void testReverseValidDiff() {
+        DateTime date1 = new DateTime(15, 2, 2018);
+        DateTime date2 = new DateTime(25, 2, 2018);
+        assertEquals(-10, DateTime.diffDays(date1, date2));
     }
 }

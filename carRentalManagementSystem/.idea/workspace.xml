@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac67e32-697d-4133-ad52-1bf59f389d0b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/RentalRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RentalRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DateTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DateTimeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DateTimeTest.testInvalidDate">
+  <component name="RunManager" selected="JUnit.DateTimeTest.testReverseValidDiff">
     <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Start" />
       <module name="carRentalManagementSystem" />
@@ -68,16 +68,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeTest.testDayNameWithDateLessThen1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carRentalManagementSystem" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
-      <option name="METHOD_NAME" value="testDayNameWithDateLessThen1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DateTimeTest.testInvalidDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
@@ -88,11 +78,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeTest.testSat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DateTimeTest.testReverseValidDiff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
-      <option name="METHOD_NAME" value="testSat" />
+      <option name="METHOD_NAME" value="testReverseValidDiff" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTimeTest.testValidDiff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carRentalManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
+      <option name="METHOD_NAME" value="testValidDiff" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DateTimeTest.testReverseValidDiff" />
+        <item itemvalue="JUnit.DateTimeTest.testValidDiff" />
         <item itemvalue="JUnit.DateTimeTest.testInvalidDate" />
         <item itemvalue="JUnit.DateTimeTest.getNameOfDay" />
         <item itemvalue="Application.Start" />
-        <item itemvalue="JUnit.DateTimeTest.testSat" />
-        <item itemvalue="JUnit.DateTimeTest.testDayNameWithDateLessThen1" />
       </list>
     </recent_temporary>
   </component>
