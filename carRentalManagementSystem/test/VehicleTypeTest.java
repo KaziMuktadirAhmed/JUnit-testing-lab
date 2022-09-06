@@ -40,6 +40,12 @@ class VehicleTypeTest {
         VehicleType type = new VehicleType(4);
         assertEquals(3, type.canBeRentedForMinimumDays(new DateTime(17,2, 2018), "car"));
     }
+
+    @Test
+    void minCarRentDayForWeekendFalse() {
+        VehicleType type = new VehicleType(4);
+        assertEquals(3, type.canBeRentedForMinimumDays(new DateTime(17,2, 2018), "car"));
+    }
     @Test
     void minVanRentDay() {
         VehicleType type = new VehicleType(4);

@@ -46,7 +46,7 @@ class VehicleTest {
     @Test
     void testCarRentMinNumDays() {
         Vehicle car = new Car("C_123", 2019, "Sedan", "Toyota", 0, new VehicleType(4));
-        assertFalse(car.rent("Cus_123", new DateTime(7, 2, 2018), 1));
+        assertFalse(car.rent("Cus_123", new DateTime(17, 2, 2018), 2));
     }
     @Test
     void testCarRentMaxNumDays() {
@@ -55,10 +55,27 @@ class VehicleTest {
     }
 
     @Test
-    void testLateFee() {}
+    void testLateFee() {
+        testCarLateFee();
+        testVanLateFee();
+        testInvalidLateFee();
+    }
     @Test
     void testCarLateFee() {
-        Vehicle car = new Car("C_123", 2019, "Sedan", "Toyota", 0, new VehicleType(4));
+        Car car = new Car("C_123", 2019, "Sedan", "Toyota", 0, new VehicleType(4));
+        assertEquals(97.5, car.getLateFee(new DateTime(2,2,2018), new DateTime(1, 2, 2018)));
+    }
+    @Test
+    void testVanLateFee() {
+        VehicleType type = new VehicleType(15);
+        type.setLastMaintenance(new DateTime(1,1,2019));
+        Van van = new Van("V_123", 2019, "Pickup", "Toyota", 0, type);
+        assertEquals(299, van.getLateFee(new DateTime(2,2,2018), new DateTime(1, 2, 2018)));
+    }
 
+    @Test
+    void testInvalidLateFee() {
+        Car car = new Car("C_123", 2019, "Sedan", "Toyota", 0, new VehicleType(4));
+        assertEquals(0.0, car.getLateFee(new DateTime(1,2,2018), new DateTime(2, 2, 2018)));
     }
 }

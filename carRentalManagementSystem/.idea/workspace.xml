@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3ac67e32-697d-4133-ad52-1bf59f389d0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTypeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/VehicleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/VehicleTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/VehicleTypeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +53,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Start">
+  <component name="RunManager" selected="JUnit.VehicleTest.testInvalidLateFee">
     <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Start" />
       <module name="carRentalManagementSystem" />
@@ -59,41 +61,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest.testCarRentMaxNumDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.testCarRentMinNumDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="VehicleTest" />
-      <option name="METHOD_NAME" value="testCarRentMaxNumDays" />
+      <option name="METHOD_NAME" value="testCarRentMinNumDays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTest.testVanRentOverTimeLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.testInvalidLateFee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="VehicleTest" />
-      <option name="METHOD_NAME" value="testVanRentOverTimeLimit" />
+      <option name="METHOD_NAME" value="testInvalidLateFee" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTypeTest.canBeRentedForMinimumDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.testLateFee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VehicleTypeTest" />
-      <option name="METHOD_NAME" value="canBeRentedForMinimumDays" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
+      <option name="METHOD_NAME" value="testLateFee" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTypeTest.getSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTypeTest.minCarRentDayForWeekend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="VehicleTypeTest" />
-      <option name="METHOD_NAME" value="getSeats" />
+      <option name="METHOD_NAME" value="minCarRentDayForWeekend" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VehicleTest.testInvalidLateFee" />
+        <item itemvalue="JUnit.VehicleTest.testCarRentMinNumDays" />
+        <item itemvalue="JUnit.VehicleTypeTest.minCarRentDayForWeekend" />
         <item itemvalue="Application.Start" />
-        <item itemvalue="JUnit.VehicleTypeTest.canBeRentedForMinimumDays" />
-        <item itemvalue="JUnit.VehicleTypeTest.getSeats" />
-        <item itemvalue="JUnit.VehicleTest.testCarRentMaxNumDays" />
-        <item itemvalue="JUnit.VehicleTest.testVanRentOverTimeLimit" />
+        <item itemvalue="JUnit.VehicleTest.testLateFee" />
       </list>
     </recent_temporary>
   </component>
