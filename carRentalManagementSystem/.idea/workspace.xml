@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac67e32-697d-4133-ad52-1bf59f389d0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTypeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/VehicleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/VehicleTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/VehicleTypeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,52 +54,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.VehicleTypeTest.getSeats">
-    <configuration name="DateTimeTest.testReverseValidDiff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.VehicleTest.testCarRentMaxNumDays">
+    <configuration name="VehicleTest.testCarRent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
-      <option name="METHOD_NAME" value="testReverseValidDiff" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
+      <option name="METHOD_NAME" value="testCarRent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTypeTest.getSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.testCarRentMaxNumDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VehicleTypeTest" />
-      <option name="METHOD_NAME" value="getSeats" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
+      <option name="METHOD_NAME" value="testCarRentMaxNumDays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTypeTest.testCarSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.testVanRent (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VehicleTypeTest" />
-      <option name="METHOD_NAME" value="testCarSeats" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
+      <option name="METHOD_NAME" value="testVanRent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTypeTest.testInvalidVehicleSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.testVanRentOverTimeLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VehicleTypeTest" />
-      <option name="METHOD_NAME" value="testInvalidVehicleSeats" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
+      <option name="METHOD_NAME" value="testVanRentOverTimeLimit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VehicleTypeTest.testVanSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTest.testVanRentWithoutMaintenanceSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VehicleTypeTest" />
-      <option name="METHOD_NAME" value="testVanSeats" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTest" />
+      <option name="METHOD_NAME" value="testVanRentWithoutMaintenanceSet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VehicleTypeTest.getSeats" />
-        <item itemvalue="JUnit.VehicleTypeTest.testInvalidVehicleSeats" />
-        <item itemvalue="JUnit.VehicleTypeTest.testVanSeats" />
-        <item itemvalue="JUnit.VehicleTypeTest.testCarSeats" />
-        <item itemvalue="JUnit.DateTimeTest.testReverseValidDiff" />
+        <item itemvalue="JUnit.VehicleTest.testCarRentMaxNumDays" />
+        <item itemvalue="JUnit.VehicleTest.testVanRentOverTimeLimit" />
+        <item itemvalue="JUnit.VehicleTest.testVanRentWithoutMaintenanceSet" />
+        <item itemvalue="JUnit.VehicleTest.testVanRent (1)" />
+        <item itemvalue="JUnit.VehicleTest.testCarRent" />
       </list>
     </recent_temporary>
   </component>

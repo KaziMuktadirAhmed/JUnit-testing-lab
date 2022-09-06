@@ -52,14 +52,14 @@ public class Vehicle {
               return false;
 		      else
 			  {
-			  String rentId= this.Vehicle_id+"_"+customerId+"_"+rentDate. getEightDigitDate();
+			  String rentId= this.Vehicle_id+"_"+customerId+"_"+rentDate.getEightDigitDate();
               this.records[this.getLastElementIndex()+1]=new RentalRecord(rentId,rentDate,new DateTime(rentDate,numOfRentDay));
               this.vehicleStatus=1;
               return true;
 			  }
           }
           else {
-              String rentId= this.Vehicle_id+"_"+customerId+"_"+rentDate. getEightDigitDate();
+              String rentId= this.Vehicle_id+"_"+customerId+"_"+rentDate.getEightDigitDate();
               this.records[this.getLastElementIndex()+1]=new RentalRecord(rentId,rentDate,new DateTime(rentDate,numOfRentDay));
               this.vehicleStatus=1;
               return true;
