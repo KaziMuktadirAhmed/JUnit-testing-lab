@@ -43,14 +43,14 @@ public class RentalRecord extends DateTime{
     {
         if(this.ActualReturnDate==null && this.RentalFee==null && this.LateFee==null) {
             String data =
-                        "Record ID:             " + this.RentId
+                    "Record ID:             " + this.RentId
                     + "\nRent Date:             " + this.RentDate.toString()
                     + "\nEstimated Return Date: " + this.EstimatedReturnDate.toString();
 
             return data;
         }
         else{
-            return      "Record ID:             " + this.RentId
+            return  "Record ID:             " + this.RentId
                     + "\nRent Date:             " + this.RentDate.toString()
                     + "\nEstimated Return Date: " + this.EstimatedReturnDate.toString()
                     + "\nActual Return Date:    "+this.ActualReturnDate.toString()
@@ -58,6 +58,4 @@ public class RentalRecord extends DateTime{
                       "\nLate Fee:              "+String.format("%.2f",this.LateFee);
         }
     }
-	
-	
 }
