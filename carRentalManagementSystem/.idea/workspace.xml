@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac67e32-697d-4133-ad52-1bf59f389d0b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DateTimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DateTimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/VehicleTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/VehicleTypeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,34 +49,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DateTimeTest.testReverseValidDiff">
-    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Start" />
-      <module name="carRentalManagementSystem" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateTimeTest.getNameOfDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carRentalManagementSystem" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
-      <option name="METHOD_NAME" value="getNameOfDay" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DateTimeTest.testInvalidDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="carRentalManagementSystem" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
-      <option name="METHOD_NAME" value="testInvalidDate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.VehicleTypeTest.getSeats">
     <configuration name="DateTimeTest.testReverseValidDiff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
@@ -88,11 +60,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateTimeTest.testValidDiff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VehicleTypeTest.getSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="carRentalManagementSystem" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DateTimeTest" />
-      <option name="METHOD_NAME" value="testValidDiff" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTypeTest" />
+      <option name="METHOD_NAME" value="getSeats" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleTypeTest.testCarSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carRentalManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTypeTest" />
+      <option name="METHOD_NAME" value="testCarSeats" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleTypeTest.testInvalidVehicleSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carRentalManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTypeTest" />
+      <option name="METHOD_NAME" value="testInvalidVehicleSeats" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VehicleTypeTest.testVanSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="carRentalManagementSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VehicleTypeTest" />
+      <option name="METHOD_NAME" value="testVanSeats" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VehicleTypeTest.getSeats" />
+        <item itemvalue="JUnit.VehicleTypeTest.testInvalidVehicleSeats" />
+        <item itemvalue="JUnit.VehicleTypeTest.testVanSeats" />
+        <item itemvalue="JUnit.VehicleTypeTest.testCarSeats" />
         <item itemvalue="JUnit.DateTimeTest.testReverseValidDiff" />
-        <item itemvalue="JUnit.DateTimeTest.testValidDiff" />
-        <item itemvalue="JUnit.DateTimeTest.testInvalidDate" />
-        <item itemvalue="JUnit.DateTimeTest.getNameOfDay" />
-        <item itemvalue="Application.Start" />
       </list>
     </recent_temporary>
   </component>

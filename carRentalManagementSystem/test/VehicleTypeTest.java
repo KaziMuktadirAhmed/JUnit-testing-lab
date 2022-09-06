@@ -5,22 +5,24 @@ class VehicleTypeTest {
 
     @Test
     void getSeats() {
+        testCarSeats();
+        testVanSeats();
+        testInvalidVehicleSeats();
     }
-
     @Test
-    void getCarSeats() {
+    void testCarSeats() {
+        VehicleType type = new VehicleType(4);
+        assertEquals(4,type.getSeats("car"));
     }
-
     @Test
-    void setCarSeats() {
+    void testVanSeats(){
+        VehicleType type = new VehicleType(4);
+        assertEquals(15, type.getSeats("van"));
     }
-
     @Test
-    void getLastMaintenance() {
-    }
-
-    @Test
-    void setLastMaintenance() {
+    void testInvalidVehicleSeats() {
+        VehicleType type = new VehicleType(4);
+        assertEquals(0, type.getSeats("lawn mower"));
     }
 
     @Test
