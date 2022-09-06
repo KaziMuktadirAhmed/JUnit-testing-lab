@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3ac67e32-697d-4133-ad52-1bf59f389d0b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/carRentalManagementSystem/VehicleTypeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/VehicleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/VehicleTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/VehicleTypeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -35,7 +35,7 @@ public class Vehicle {
      * @param customerId,rentDate,numOfRentDay accepts customeID, date of rent, no of renting days
      * @return True or false as to vehicle is successfully rented or not
      */
-    public boolean rent(String customerId, DateTime rentDate, int numOfRentDay)
+    public boolean rent(String customerId, DateTime rentDate, int numOfRentDay) throws NullPointerException
     {
           String typeOfVehicle;
           if(this.Vehicle_id.contains("C_"))
